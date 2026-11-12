@@ -1,0 +1,43 @@
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# SQL Server database files
+*.mdf
+*.ndf
+*.ldf
+*.bak
+*.trn
+*.mdmp
+
+# Database exports and temporary files
+*.bacpac
+*.dacpac
+*.csv
+*.log
+*.tmp
+*.temp
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Python environments (if used for supporting scripts)
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Environment and secret files
+.env
+.env.*
+!.env.example
+
+# Build and temporary folders
+build/
+dist/
+temp/
+tmp/
+/trial.sql
